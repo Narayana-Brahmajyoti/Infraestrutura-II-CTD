@@ -9,7 +9,7 @@ resource "aws_instance" "narayana_ec2" {
   vpc_security_group_ids = [aws_security_group.sg_acesso_ssh_publico.id, aws_security_group.sg_acesso_web.id]
 }
 
-resource "aws_instance" "nidio_ec2_ansible" {
+resource "aws_instance" "narayana_ec2_ansible" {
   count         = 1
   ami           = var.ami
   instance_type = var.tipo_instancia

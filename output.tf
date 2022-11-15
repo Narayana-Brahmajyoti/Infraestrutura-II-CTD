@@ -6,5 +6,5 @@ output "instancias_ec2_private" {
 }
 
 output "instancias_ec2_ansible" {
-  value = aws_instance.nidio_ec2_ansible.*.public_ip
+  value = aws_instance.narayana_ec2_ansible.*.public_ip
 }
