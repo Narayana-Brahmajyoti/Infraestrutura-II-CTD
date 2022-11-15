@@ -18,5 +18,5 @@ provider "aws" {
 
 
 
-# ssh -i pasta/nome-da-chave usuario@IP-ou-DNS acessar pelo powerShell
+# ssh -i pasta/nome-da-chave usuario@IP-ou-DNS acessar pelo powerShell a instancia
 # ssh -i .ssh/terraform-aws ubuntu@52.15.201.39 
