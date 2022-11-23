@@ -1,9 +1,9 @@
-[banana]
-banana ansible_host=172.31.13.49 new_hostname=banana 
-172.31.47.13 new_hostname=docker
+[instancia1]
+instancia1 ansible_host=172.31.13.49 new_hostname=instancia1 
 
-[laranja]
-laranja ansible_host=172.31.14.222 new_hostname=laranja
+
+[instancia2]
+instancia2 ansible_host=172.31.14.222 new_hostname=instancia2
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
